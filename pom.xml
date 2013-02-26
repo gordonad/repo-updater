@@ -109,7 +109,7 @@
         <maven-install-plugin.version>2.4</maven-install-plugin.version>
         <maven-jar-plugin.version>2.4</maven-jar-plugin.version>
         <maven-javadoc-plugin.version>2.9</maven-javadoc-plugin.version>
-        <maven-jaxb-plugin.version>0.8.2</maven-jaxb-plugin.version>
+        <maven-jaxb-plugin.version>0.8.3</maven-jaxb-plugin.version>
         <maven-jetty-plugin.version>8.1.9.v20130131</maven-jetty-plugin.version>
         <maven-jxr-plugin.version>2.3</maven-jxr-plugin.version>
         <maven-m2e-lifecycle-plugin.version>1.0.0</maven-m2e-lifecycle-plugin.version>
@@ -299,6 +299,11 @@
             <version>${maven-apt-plugin.version}</version>
         </dependency>
         
+        <dependency>
+            <groupId>org.jvnet.jaxb2.maven2</groupId>
+            <artifactId>maven-jaxb2-plugin</artifactId>
+            <version>${maven-jaxb-plugin.version}</version>
+        </dependency>
         <dependency>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-plugin-plugin</artifactId>
@@ -1221,11 +1226,11 @@
             </snapshots>
         </repository>
         <!-- JBoss repo only needed for Spring Security Dependency of com.sun.xml.wsit:xws-security:jar:1.3.1 -->
-        <repository>
+         <!-- <repository>
             <id>jboss.repository.releases.public</id>
             <name>JBoss Repo Public</name>
             <url>http://repository.jboss.org/nexus/content/groups/public-jboss</url>
-        </repository>
+        </repository>-->
     </repositories>
 
 

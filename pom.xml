@@ -27,6 +27,7 @@
         <commons-cli.version>1.2</commons-cli.version>
         <commons-codec.version>1.7</commons-codec.version>
         <commons-collections.version>3.2.1</commons-collections.version>
+        <commons-configuration.version>1.9</commons-configuration.version>
         <commons-dbcp.version>1.4</commons-dbcp.version>
         <commons-digester2.version>2.1</commons-digester2.version>
         <commons-digester3.version>3.2</commons-digester3.version>
@@ -38,6 +39,7 @@
         <commons-lang3.version>3.1</commons-lang3.version>
         <commons-net.version>3.2</commons-net.version>
         <commons-pool.version>1.6</commons-pool.version>
+        <commons-validator.version>1.4.0</commons-validator.version>
         <derby.version>10.9.1.0</derby.version>
         <detail>true</detail>
         <dom4j.version>1.6.1</dom4j.version>
@@ -69,22 +71,22 @@
         <javax-el.version>3.0-b05</javax-el.version>
         <jaxb-api.version>2.2.7</jaxb-api.version>
         <jaxb-impl.version>2.2.7-b58</jaxb-impl.version>
-        <jaxws-api.version>2.2.8</jaxws-api.version>
+        <jaxws-api.version>2.2.9</jaxws-api.version>
         <jayway-availability.version>1.3.5</jayway-availability.version>
-        <jboss-logging.version>3.1.2.GA</jboss-logging.version>
+        <jboss-logging.version>3.1.3.GA</jboss-logging.version>
         <jdk.version>1.6</jdk.version>
         <jdom.version>2.0.2</jdom.version>
         <jettison.version>1.3.3</jettison.version>
         <jms.version>1.1.1</jms.version>
         <jodatime-hibernate.version>1.3</jodatime-hibernate.version>
         <jodatime-jsptags.version>1.1.1</jodatime-jsptags.version>
-        <jodatime.version>2.1</jodatime.version>
+        <jodatime.version>2.2</jodatime.version>
         <jsch.version>0.1.45</jsch.version>
         <jsp.version>2.2</jsp.version>
         <jstl.version>1.2</jstl.version>
         <jta.version>1.1</jta.version>
         <junit.version>4.11</junit.version>
-        <logback.version>1.0.9</logback.version>
+        <logback.version>1.0.10</logback.version>
         <maven-antrun-plugin.version>1.7</maven-antrun-plugin.version>
         <maven-apt-plugin.version>1.0.4</maven-apt-plugin.version>
         <maven-aspectj-plugin.version>1.4</maven-aspectj-plugin.version>
@@ -96,34 +98,35 @@
         <maven-clover2-plugin.version>3.1.10.1</maven-clover2-plugin.version>
         <maven-cobertura-plugin.version>2.5.2</maven-cobertura-plugin.version>
         <maven-compiler-plugin.version>3.0</maven-compiler-plugin.version>
-        <maven-dependency-plugin.version>2.6</maven-dependency-plugin.version>
+        <maven-dependency-plugin.version>2.7</maven-dependency-plugin.version>
         <maven-deploy-plugin.version>2.7</maven-deploy-plugin.version>
         <maven-doxia.version>1.3</maven-doxia.version>
         <maven-eclipse-plugin.version>2.9</maven-eclipse-plugin.version>
         <maven-enforcer-plugin.version>1.2</maven-enforcer-plugin.version>
         <maven-exec-plugin.version>1.2.1</maven-exec-plugin.version>
-        <maven-failsafe-plugin.version>2.13</maven-failsafe-plugin.version>
+        <maven-failsafe-plugin.version>2.14</maven-failsafe-plugin.version>
         <maven-findbugs-plugin.version>2.5.2</maven-findbugs-plugin.version>
         <maven-groovy-plugin.version>1.4</maven-groovy-plugin.version>
-        <maven-help-plugin.version>2.1.1</maven-help-plugin.version>
+        <maven-help-plugin.version>2.2</maven-help-plugin.version>
         <maven-install-plugin.version>2.4</maven-install-plugin.version>
         <maven-jar-plugin.version>2.4</maven-jar-plugin.version>
         <maven-javadoc-plugin.version>2.9</maven-javadoc-plugin.version>
         <maven-jaxb-plugin.version>0.8.3</maven-jaxb-plugin.version>
-        <maven-jetty-plugin.version>8.1.9.v20130131</maven-jetty-plugin.version>
+        <maven-jetty-plugin.version>8.1.10.v20130312</maven-jetty-plugin.version>
         <maven-jxr-plugin.version>2.3</maven-jxr-plugin.version>
         <maven-m2e-lifecycle-plugin.version>1.0.0</maven-m2e-lifecycle-plugin.version>
+        <maven-pdf-plugin.version>1.2</maven-pdf-plugin.version>
         <maven-plugin-plugin.version>3.2</maven-plugin-plugin.version>
-        <maven-pmd-plugin.version>3.0</maven-pmd-plugin.version>
+        <maven-pmd-plugin.version>3.0.1</maven-pmd-plugin.version>
         <maven-project-info-reports-plugin.version>2.6</maven-project-info-reports-plugin.version>
         <maven-release-plugin.version>2.4</maven-release-plugin.version>
         <maven-resources-plugin.version>2.6</maven-resources-plugin.version>
         <maven-scm-plugin.version>1.8.1</maven-scm-plugin.version>
         <maven-selenium-plugin.version>2.3</maven-selenium-plugin.version>
         <maven-site-plugin.version>3.2</maven-site-plugin.version>
-        <maven-sonar-plugin.version>3.4</maven-sonar-plugin.version>
+        <maven-sonar-plugin.version>3.5</maven-sonar-plugin.version>
         <maven-source-plugin.version>2.2.1</maven-source-plugin.version>
-        <maven-surefire-plugin.version>2.13</maven-surefire-plugin.version>
+        <maven-surefire-plugin.version>2.14</maven-surefire-plugin.version>
         <maven-taglist-plugin.version>2.4</maven-taglist-plugin.version>
         <maven-tomcat-plugin.version>2.1</maven-tomcat-plugin.version>
         <maven.version.range>[2.2.1,3.1.0)</maven.version.range>
@@ -140,8 +143,8 @@
         <rome.version>1.0</rome.version>
         <selenium-server.version>2.30.0</selenium-server.version>
         <servlet.version>2.5</servlet.version>
-        <slf4j.version>1.7.2</slf4j.version>
-        <spring-amqp.version>1.1.3.RELEASE</spring-amqp.version>
+        <slf4j.version>1.7.3</slf4j.version>
+        <spring-amqp.version>1.1.4.RELEASE</spring-amqp.version>
         <spring-batch-admin.version>1.2.2.RELEASE</spring-batch-admin.version>
         <spring-batch.version>2.2.0.M1</spring-batch.version>
         <spring-data-commons.version>1.5.0.RELEASE</spring-data-commons.version>
@@ -156,7 +159,7 @@
         <spring-data-redis.version>1.0.3.RELEASE</spring-data-redis.version>
         <spring-data-rest.version>1.0.0.RELEASE</spring-data-rest.version>
         <spring-data-solr.version>1.0.0.RC1</spring-data-solr.version>
-        <spring-framework.version>3.2.1.RELEASE</spring-framework.version>
+        <spring-framework.version>3.2.2.RELEASE</spring-framework.version>
         <spring-integration.version>3.0.0.M1</spring-integration.version>
         <spring-redis.version>1.0.0.RELEASE</spring-redis.version>
         <spring-retry.version>1.0.2.RELEASE</spring-retry.version>
@@ -168,7 +171,10 @@
         <sysout.slf4j.version>1.0.2</sysout.slf4j.version>
         <tiles.version>3.0.1</tiles.version>
         <validation.version>1.0.0.GA</validation.version>
-        <webjars-bootstrap.version>2.3.0</webjars-bootstrap.version>
+        <wicket.bootstrap.version>0.7.6</wicket.bootstrap.version>
+        <wicket.version>6.6.0</wicket.version>
+        <wicketstuff.version>6.5.0</wicketstuff.version>
+        <webjars-bootstrap.version>2.3.1</webjars-bootstrap.version>
         <webjars-jquery-ui.version>1.9.2</webjars-jquery-ui.version>
         <webjars-jquery.version>1.9.1</webjars-jquery.version>
         <wsdl4j.version>1.6.2</wsdl4j.version>
@@ -186,6 +192,290 @@
 
 
     <dependencies>
+        <!-- **************************** -->
+        <!-- ********** WICKET ********** -->
+        <!-- **************************** -->
+        <dependency>
+            <groupId>org.apache.wicket</groupId>
+            <artifactId>wicket-core</artifactId>
+            <version>${wicket.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.wicket</groupId>
+            <artifactId>wicket-util</artifactId>
+            <version>${wicket.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.wicket</groupId>
+            <artifactId>wicket-extensions</artifactId>
+            <version>${wicket.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.wicket</groupId>
+            <artifactId>wicket-datetime</artifactId>
+            <version>${wicket.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.wicket</groupId>
+            <artifactId>wicket-request</artifactId>
+            <version>${wicket.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.wicket</groupId>
+            <artifactId>wicket-auth-roles</artifactId>
+            <version>${wicket.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.odlabs.wiquery</groupId>
+            <artifactId>wiquery-core</artifactId>
+            <version>${wicket.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.odlabs.wiquery</groupId>
+            <artifactId>wiquery-jquery-ui</artifactId>
+            <version>${wicket.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>de.agilecoders.wicket</groupId>
+            <artifactId>bootstrap</artifactId>
+            <version>${wicket.bootstrap.version}</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>commons-logging</groupId>
+                    <artifactId>commons-logging</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+        <dependency>
+            <groupId>org.wicketstuff</groupId>
+            <artifactId>wicketstuff-annotation</artifactId>
+            <version>${wicketstuff.version}</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>commons-logging</groupId>
+                    <artifactId>commons-logging</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+        <dependency>
+            <version>${maven-antrun-plugin.version}</version>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-antrun-plugin</artifactId>
+        </dependency>
+        <dependency>
+            <version>${maven-apt-plugin.version}</version>
+            <groupId>com.mysema.maven</groupId>
+            <artifactId>maven-apt-plugin</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.codehaus.mojo</groupId>
+            <artifactId>aspectj-maven-plugin</artifactId>
+            <version>${maven-aspectj-plugin.version}</version>
+        </dependency>
+        <dependency>
+            <version>${maven-assembly-plugin.version}</version>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-assembly-plugin</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.codehaus.mojo</groupId>
+            <artifactId>build-helper-maven-plugin</artifactId>
+            <version>${maven-build-helper-plugin.version}</version>
+        </dependency>
+        <dependency>
+            <version>${maven-checkstyle-plugin.version}</version>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-checkstyle-plugin</artifactId>
+        </dependency>
+        <dependency>
+            <version>${maven-clean-plugin.version}</version>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-clean-plugin</artifactId>
+        </dependency>
+        <dependency>
+            <version>${maven-clover2-plugin.version}</version>
+            <groupId>com.atlassian.maven.plugins</groupId>
+            <artifactId>maven-clover2-plugin</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.codehaus.mojo</groupId>
+            <artifactId>cobertura-maven-plugin</artifactId>
+            <version>${maven-cobertura-plugin.version}</version>
+        </dependency>
+        <dependency>
+            <version>${maven-compiler-plugin.version}</version>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-compiler-plugin</artifactId>
+        </dependency>
+        <dependency>
+            <version>${maven-dependency-plugin.version}</version>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-dependency-plugin</artifactId>
+        </dependency>
+        <dependency>
+            <version>${maven-deploy-plugin.version}</version>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-deploy-plugin</artifactId>
+        </dependency>
+        <dependency>
+            <version>${maven-doxia.version}</version>
+            <groupId>org.apache.maven.doxia</groupId>
+            <artifactId>doxia-module-markdown</artifactId>
+        </dependency>
+        <dependency>
+            <version>${maven-eclipse-plugin.version}</version>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-eclipse-plugin</artifactId>
+        </dependency>
+        <dependency>
+            <version>${maven-enforcer-plugin.version}</version>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-enforcer-plugin</artifactId>
+        </dependency>
+        <dependency>
+            <version>${maven-exec-plugin.version}</version>
+            <groupId>org.codehaus.mojo</groupId>
+            <artifactId>exec-maven-plugin</artifactId>
+        </dependency>
+        <dependency>
+            <version>${maven-failsafe-plugin.version}</version>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-failsafe-plugin</artifactId>
+        </dependency>
+        <dependency>
+            <version>${maven-findbugs-plugin.version}</version>
+            <groupId>org.codehaus.mojo</groupId>
+            <artifactId>findbugs-maven-plugin</artifactId>
+        </dependency>
+        <dependency>
+            <version>${maven-install-plugin.version}</version>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-install-plugin</artifactId>
+        </dependency>
+        <dependency>
+            <version>${maven-jar-plugin.version}</version>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-jar-plugin</artifactId>
+        </dependency>
+        <dependency>
+            <version>${maven-javadoc-plugin.version}</version>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-javadoc-plugin</artifactId>
+            <exclusions>
+                <exclusion>
+                    <groupId>commons-logging</groupId>
+                    <artifactId>commons-logging</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+        <dependency>
+            <version>${maven-jaxb-plugin.version}</version>
+            <groupId>org.jvnet.jaxb2.maven2</groupId>
+            <artifactId>maven-jaxb2-plugin</artifactId>
+        </dependency>
+        <dependency>
+            <version>${maven-jetty-plugin.version}</version>
+            <groupId>org.mortbay.jetty</groupId>
+            <artifactId>jetty-maven-plugin</artifactId>
+        </dependency>
+        <dependency>
+            <version>${maven-jxr-plugin.version}</version>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-jxr-plugin</artifactId>
+        </dependency>
+        <dependency>
+            <version>${maven-pdf-plugin.version}</version>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-pdf-plugin</artifactId>
+            <exclusions>
+                <exclusion>
+                    <groupId>commons-logging</groupId>
+                    <artifactId>commons-logging</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+        <dependency>
+            <version>${maven-plugin-plugin.version}</version>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-plugin-plugin</artifactId>
+        </dependency>
+        <dependency>
+            <version>${maven-pmd-plugin.version}</version>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-pmd-plugin</artifactId>
+        </dependency>
+        <dependency>
+            <version>${maven-project-info-reports-plugin.version}</version>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-project-info-reports-plugin</artifactId>
+        </dependency>
+        <dependency>
+            <version>${maven-release-plugin.version}</version>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-release-plugin</artifactId>
+        </dependency>
+        <dependency>
+            <version>${maven-resources-plugin.version}</version>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-resources-plugin</artifactId>
+        </dependency>
+        <dependency>
+            <version>${maven-scm-plugin.version}</version>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-scm-plugin</artifactId>
+        </dependency>
+        <dependency>
+            <version>${maven-site-plugin.version}</version>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-site-plugin</artifactId>
+        </dependency>
+        <dependency>
+            <version>${maven-source-plugin.version}</version>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-source-plugin</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.codehaus.sonar</groupId>
+            <artifactId>sonar-maven3-plugin</artifactId>
+            <version>${maven-sonar-plugin.version}</version>
+        </dependency>
+        <dependency>
+            <version>${maven-surefire-plugin.version}</version>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-surefire-plugin</artifactId>
+        </dependency>
+        <dependency>
+            <version>${maven-surefire-plugin.version}</version>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-surefire-report-plugin</artifactId>
+        </dependency>
+        <dependency>
+            <version>${maven-taglist-plugin.version}</version>
+            <groupId>org.codehaus.mojo</groupId>
+            <artifactId>taglist-maven-plugin</artifactId>
+        </dependency>
+        <dependency>
+            <version>${maven-tomcat-plugin.version}</version>
+            <groupId>org.apache.tomcat.maven</groupId>
+            <artifactId>tomcat6-maven-plugin</artifactId>
+        </dependency>
+        <dependency>
+            <version>${maven-tomcat-plugin.version}</version>
+            <groupId>org.apache.tomcat.maven</groupId>
+            <artifactId>tomcat7-maven-plugin</artifactId>
+        </dependency>
+        <dependency>
+            <version>${maven-versions-plugin.version}</version>
+            <groupId>org.codehaus.mojo</groupId>
+            <artifactId>versions-maven-plugin</artifactId>
+        </dependency>
+        <dependency>
+            <version>${maven-war-plugin.version}</version>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-war-plugin</artifactId>
+        </dependency>
+
+
         <!--<dependency>-->
         <!--<groupId>org.springframework.data</groupId>-->
         <!--<artifactId>spring-data-neo4j</artifactId>-->
@@ -235,6 +525,16 @@
             <groupId>org.springframework.data</groupId>
             <artifactId>spring-data-hadoop</artifactId>
             <version>${spring-data-hadoop.version}</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>commons-logging</groupId>
+                    <artifactId>commons-logging</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>hsqldb</groupId>
+                    <artifactId>hsqldb</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
         <dependency>
             <groupId>org.springframework.data</groupId>
@@ -292,178 +592,15 @@
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-server</artifactId>
             <version>${selenium-server.version}</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>commons-logging</groupId>
+                    <artifactId>commons-logging</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
-        <dependency>
-            <groupId>com.mysema.maven</groupId>
-            <artifactId>maven-apt-plugin</artifactId>
-            <version>${maven-apt-plugin.version}</version>
-        </dependency>
-        
-        <dependency>
-            <groupId>org.jvnet.jaxb2.maven2</groupId>
-            <artifactId>maven-jaxb2-plugin</artifactId>
-            <version>${maven-jaxb-plugin.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-plugin-plugin</artifactId>
-            <version>${maven-plugin-plugin.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-compiler-plugin</artifactId>
-            <version>${maven-compiler-plugin.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-source-plugin</artifactId>
-            <version>${maven-source-plugin.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-clean-plugin</artifactId>
-            <version>${maven-clean-plugin.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>com.atlassian.maven.plugins</groupId>
-            <artifactId>maven-clover2-plugin</artifactId>
-            <version>${maven-clover2-plugin.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-site-plugin</artifactId>
-            <version>${maven-site-plugin.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-surefire-report-plugin</artifactId>
-            <version>${maven-surefire-plugin.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-javadoc-plugin</artifactId>
-            <version>${maven-javadoc-plugin.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-checkstyle-plugin</artifactId>
-            <version>${maven-checkstyle-plugin.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-project-info-reports-plugin</artifactId>
-            <version>${maven-project-info-reports-plugin.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-jxr-plugin</artifactId>
-            <version>${maven-jxr-plugin.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.codehaus.mojo</groupId>
-            <artifactId>findbugs-maven-plugin</artifactId>
-            <version>${maven-findbugs-plugin.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.codehaus.mojo</groupId>
-            <artifactId>taglist-maven-plugin</artifactId>
-            <version>${maven-taglist-plugin.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.codehaus.mojo</groupId>
-            <artifactId>versions-maven-plugin</artifactId>
-            <version>${maven-versions-plugin.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.maven.doxia</groupId>
-            <artifactId>doxia-module-markdown</artifactId>
-            <version>${maven-doxia.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-eclipse-plugin</artifactId>
-            <version>${maven-eclipse-plugin.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.tomcat.maven</groupId>
-            <artifactId>tomcat7-maven-plugin</artifactId>
-            <version>${maven-tomcat-plugin.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.tomcat.maven</groupId>
-            <artifactId>tomcat6-maven-plugin</artifactId>
-            <version>${maven-tomcat-plugin.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.mortbay.jetty</groupId>
-            <artifactId>jetty-maven-plugin</artifactId>
-            <version>${maven-jetty-plugin.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-surefire-plugin</artifactId>
-            <version>${maven-surefire-plugin.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-dependency-plugin</artifactId>
-            <version>${maven-dependency-plugin.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-resources-plugin</artifactId>
-            <version>${maven-resources-plugin.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-enforcer-plugin</artifactId>
-            <version>${maven-enforcer-plugin.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-antrun-plugin</artifactId>
-            <version>${maven-antrun-plugin.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-deploy-plugin</artifactId>
-            <version>${maven-deploy-plugin.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-jar-plugin</artifactId>
-            <version>${maven-jar-plugin.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-war-plugin</artifactId>
-            <version>${maven-war-plugin.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-install-plugin</artifactId>
-            <version>${maven-install-plugin.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-release-plugin</artifactId>
-            <version>${maven-release-plugin.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-scm-plugin</artifactId>
-            <version>${maven-scm-plugin.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-assembly-plugin</artifactId>
-            <version>${maven-assembly-plugin.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.codehaus.mojo</groupId>
-            <artifactId>exec-maven-plugin</artifactId>
-            <version>${maven-exec-plugin.version}</version>
-        </dependency>
+
+
         <dependency>
             <groupId>org.apache.ant</groupId>
             <artifactId>ant</artifactId>
@@ -694,11 +831,23 @@
             <groupId>org.springframework.ws</groupId>
             <artifactId>spring-ws-support</artifactId>
             <version>${spring-ws.version}</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>commons-logging</groupId>
+                    <artifactId>commons-logging</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
         <dependency>
             <groupId>org.springframework.ws</groupId>
             <artifactId>spring-ws-test</artifactId>
             <version>${spring-ws.version}</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>commons-logging</groupId>
+                    <artifactId>commons-logging</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
         <dependency>
             <groupId>org.springframework.ws</groupId>
@@ -755,6 +904,16 @@
             <groupId>org.springframework.integration</groupId>
             <artifactId>spring-integration-feed</artifactId>
             <version>${spring-integration.version}</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>commons-logging</groupId>
+                    <artifactId>commons-logging-api</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>commons-logging</groupId>
+                    <artifactId>commons-logging</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
         <dependency>
             <groupId>org.springframework.integration</groupId>
@@ -861,6 +1020,12 @@
             <groupId>org.apache.santuario</groupId>
             <artifactId>xmlsec</artifactId>
             <version>${xmlsec.version}</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>commons-logging</groupId>
+                    <artifactId>commons-logging</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
         <dependency>
             <groupId>org.apache.ws.security</groupId>
@@ -1002,6 +1167,17 @@
             <version>${commons-dbcp.version}</version>
         </dependency>
         <dependency>
+            <groupId>commons-validator</groupId>
+            <artifactId>commons-validator</artifactId>
+            <version>${commons-validator.version}</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>commons-logging</groupId>
+                    <artifactId>commons-logging</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+        <dependency>
             <groupId>commons-io</groupId>
             <artifactId>commons-io</artifactId>
             <version>${commons-io.version}</version>
@@ -1025,6 +1201,11 @@
             <groupId>commons-codec</groupId>
             <artifactId>commons-codec</artifactId>
             <version>${commons-codec.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>commons-configuration</groupId>
+            <artifactId>commons-configuration</artifactId>
+            <version>${commons-configuration.version}</version>
         </dependency>
         <dependency>
             <groupId>commons-net</groupId>
@@ -1055,16 +1236,34 @@
             <groupId>commons-beanutils</groupId>
             <artifactId>commons-beanutils-core</artifactId>
             <version>${commons-beanutils.version}</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>commons-logging</groupId>
+                    <artifactId>commons-logging</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
         <dependency>
             <groupId>commons-beanutils</groupId>
             <artifactId>commons-beanutils-bean-collections</artifactId>
             <version>${commons-beanutils.version}</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>commons-logging</groupId>
+                    <artifactId>commons-logging</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
         <dependency>
             <groupId>org.apache.httpcomponents</groupId>
             <artifactId>httpclient</artifactId>
             <version>${http.components.version}</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>commons-logging</groupId>
+                    <artifactId>commons-logging</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
         <dependency>
             <groupId>commons-pool</groupId>
@@ -1146,11 +1345,23 @@
             <groupId>org.subethamail</groupId>
             <artifactId>subethasmtp-wiser</artifactId>
             <version>${subetha-smtp.version}</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>commons-logging</groupId>
+                    <artifactId>commons-logging</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
         <dependency>
             <groupId>org.codehaus.castor</groupId>
             <artifactId>castor-xml</artifactId>
             <version>${castor.version}</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>commons-logging</groupId>
+                    <artifactId>commons-logging</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
         <dependency>
             <groupId>com.thoughtworks.xstream</groupId>
@@ -1226,11 +1437,11 @@
             </snapshots>
         </repository>
         <!-- JBoss repo only needed for Spring Security Dependency of com.sun.xml.wsit:xws-security:jar:1.3.1 -->
-         <!-- <repository>
-            <id>jboss.repository.releases.public</id>
-            <name>JBoss Repo Public</name>
-            <url>http://repository.jboss.org/nexus/content/groups/public-jboss</url>
-        </repository>-->
+        <!-- <repository>
+           <id>jboss.repository.releases.public</id>
+           <name>JBoss Repo Public</name>
+           <url>http://repository.jboss.org/nexus/content/groups/public-jboss</url>
+       </repository>-->
     </repositories>
 
 
@@ -1249,11 +1460,13 @@
                     <artifactId>maven-compiler-plugin</artifactId>
                     <version>${maven-compiler-plugin.version}</version>
                     <configuration>
+                        <compilerArguments>
+                            <Xlint/>
+                        </compilerArguments>
                         <source>${jdk.version}</source>
                         <target>${jdk.version}</target>
+                        <optimize>true</optimize>
                         <debug>true</debug>
-                        <verbose>true</verbose>
-                        <compilerArgument>-Xlint:all</compilerArgument>
                     </configuration>
                 </plugin>
                 <plugin>
@@ -1432,10 +1645,6 @@
                     <configuration>
                         <rulesets>
                             <ruleset>/rulesets/maven.xml</ruleset>
-                            <ruleset>/rulesets/migrating_to_junit4.xml</ruleset>
-                            <ruleset>/rulesets/design.xml</ruleset>
-                            <ruleset>/rulesets/unusedcode.xml</ruleset>
-                            <ruleset>/rulesets/typeresolution.xml</ruleset>
                         </rulesets>
                         <sourceEncoding>${project.build.sourceEncoding}</sourceEncoding>
                         <!-- The minimum tokens before a violation -->
@@ -1690,11 +1899,10 @@
                                 <goal>enforce</goal>
                             </goals>
                             <configuration>
-                                <skip>true</skip>
                                 <rules>
-                                    <requireUpperBoundDeps/>
+                                    <!--<requireUpperBoundDeps/>-->
                                     <requirePluginVersions/>
-                                    <dependencyConvergence/>
+                                    <!--<dependencyConvergence/>-->
                                     <bannedDependencies>
                                         <searchTransitive>true</searchTransitive>
                                         <excludes>
@@ -1703,7 +1911,7 @@
                                             <exclude>aspectj:aspectj*</exclude>
                                             <exclude>asm:asm*</exclude>
                                             <exclude>hsqldb:hsqldb</exclude>
-                                            <exclude>log4j:log4j</exclude>
+                                            <!--<exclude>log4j:log4j</exclude>-->
                                             <exclude>org.slf4j:1.5*</exclude>
                                             <exclude>org.slf4j:1.6*</exclude>
                                             <exclude>org.springframework:spring:2.*</exclude>
@@ -2650,10 +2858,26 @@
                 <artifactId>selenium-server</artifactId>
                 <version>${selenium-server.version}</version>
             </dependency>
+            <dependency>
+                <groupId>javax.inject</groupId>
+                <artifactId>inject</artifactId>
+                <version>1</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 
     <prerequisites>
         <maven>3.0</maven>
     </prerequisites>
+
+
+    <pluginRepositories>
+        <pluginRepository>
+            <id>elca-services</id>
+            <url>http://public-el4.elca-services.ch/el4j/maven2repository/</url>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+        </pluginRepository>
+    </pluginRepositories>
 </project>

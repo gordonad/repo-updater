@@ -14,7 +14,7 @@
         <activation.version>1.1.1</activation.version>
         <activemq.version>5.7.0</activemq.version>
         <antlr.version>2.7.7</antlr.version>
-        <ant.version>1.8.4</ant.version>
+        <ant.version>1.9.0</ant.version>
         <asm.version>3.3.1</asm.version>
         <aspectj.version>1.7.2</aspectj.version>
         <atomikos.version>3.8.0</atomikos.version>
@@ -50,27 +50,27 @@
         <geronimo-jee.version>1.0.1</geronimo-jee.version>
         <geronimo-jta.version>1.1.1</geronimo-jta.version>
         <geronimo-ws.version>1.1.3</geronimo-ws.version>
-        <h2database.version>1.3.170</h2database.version>
+        <h2database.version>1.3.171</h2database.version>
         <hamcrest.version>1.3</hamcrest.version>
         <hessian.version>3.1.5</hessian.version>
         <hibernate-annotations.version>3.5.6-Final</hibernate-annotations.version>
-        <hibernate-core.version>4.2.0.CR1</hibernate-core.version>
+        <hibernate-core.version>4.2.0.Final</hibernate-core.version>
         <hibernate-jmx.version>3.5.6-Final</hibernate-jmx.version>
         <hibernate-jpa.version>1.0.1.Final</hibernate-jpa.version>
         <hibernate-validator.version>4.3.0.Final</hibernate-validator.version>
         <hibernate.version>3.6.10.Final</hibernate.version>
         <hsqldb.version>2.2.9</hsqldb.version>
         <http.components.version>4.2.2</http.components.version>
-        <icu4j.version>50.1.1</icu4j.version>
+        <icu4j.version>51.1</icu4j.version>
         <jackson.version>1.9.12</jackson.version>
         <jasypt.version>1.9.0</jasypt.version>
-        <java.el.version>1.0</java.el.version>
+        <java-el.version>1.0</java-el.version>
         <javamail.version>1.4.6</javamail.version>
         <javassist.version>3.17.1-GA</javassist.version>
         <javaws.version>2.1-1</javaws.version>
-        <javax-el.version>3.0-b05</javax-el.version>
-        <jaxb-api.version>2.2.7</jaxb-api.version>
-        <jaxb-impl.version>2.2.7-b58</jaxb-impl.version>
+        <javax-el.version>3.0-b07</javax-el.version>
+        <jaxb-api.version>2.2.9</jaxb-api.version>
+        <jaxb-impl.version>2.2.7-b61</jaxb-impl.version>
         <jaxws-api.version>2.2.9</jaxws-api.version>
         <jayway-availability.version>1.3.5</jayway-availability.version>
         <jboss-logging.version>3.1.3.GA</jboss-logging.version>
@@ -82,7 +82,7 @@
         <jodatime-jsptags.version>1.1.1</jodatime-jsptags.version>
         <jodatime.version>2.2</jodatime.version>
         <jsch.version>0.1.45</jsch.version>
-        <jsp.version>2.2</jsp.version>
+        <jsp.version>2.2.1-b03</jsp.version>
         <jstl.version>1.2</jstl.version>
         <jta.version>1.1</jta.version>
         <junit.version>4.11</junit.version>
@@ -133,17 +133,18 @@
         <maven-versions-plugin.version>2.0</maven-versions-plugin.version>
         <maven-war-plugin.version>2.3</maven-war-plugin.version>
         <mockito.version>1.9.5</mockito.version>
-        <mysql.version>5.1.22</mysql.version>
+        <mvel2.version>2.1.3.Final</mvel2.version>
+        <mysql.version>5.1.24</mysql.version>
         <postgres.version>9.1-901-1.jdbc4</postgres.version>
         <powermock.version>1.5</powermock.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <quartz.version>1.6.5</quartz.version>
-        <querydsl.version>2.9.0</querydsl.version>
+        <querydsl.version>3.0.0</querydsl.version>
         <rome.version>1.0</rome.version>
-        <selenium-server.version>2.30.0</selenium-server.version>
+        <selenium-server.version>2.31.0</selenium-server.version>
         <servlet.version>2.5</servlet.version>
-        <slf4j.version>1.7.3</slf4j.version>
+        <slf4j.version>1.7.4</slf4j.version>
         <spring-amqp.version>1.1.4.RELEASE</spring-amqp.version>
         <spring-batch-admin.version>1.2.2.RELEASE</spring-batch-admin.version>
         <spring-batch.version>2.2.0.M1</spring-batch.version>
@@ -152,7 +153,7 @@
         <spring-data-graph.version>1.1.0.RELEASE</spring-data-graph.version>
         <spring-data-hadoop.version>1.0.0.RELEASE</spring-data-hadoop.version>
         <spring-data-jdbc.version>1.0.0.RELEASE</spring-data-jdbc.version>
-        <spring-data-jpa.version>1.2.0.RELEASE</spring-data-jpa.version>
+        <spring-data-jpa.version>1.3.0.RELEASE</spring-data-jpa.version>
         <spring-data-mongodb.version>1.1.1.RELEASE</spring-data-mongodb.version>
         <spring-data-neo4j.version>2.1.0.RELEASE</spring-data-neo4j.version>
         <spring-data-oracle.version>1.0.0.RELEASE</spring-data-oracle.version>
@@ -177,14 +178,14 @@
         <webjars-bootstrap.version>2.3.1</webjars-bootstrap.version>
         <webjars-jquery-ui.version>1.9.2</webjars-jquery-ui.version>
         <webjars-jquery.version>1.9.1</webjars-jquery.version>
-        <wsdl4j.version>1.6.2</wsdl4j.version>
+        <wsdl4j.version>1.6.3</wsdl4j.version>
         <wss4j.version>1.6.9</wss4j.version>
         <wtp.version>2.0</wtp.version>
         <xalan.version>2.7.1</xalan.version>
-        <xbean.version>3.12</xbean.version>
-        <xerces.version>2.10.0</xerces.version>
+        <xbean.version>3.13</xbean.version>
+        <xerces.version>2.11.0</xerces.version>
         <xmlapis.version>1.0.b2</xmlapis.version>
-        <xmlsec.version>1.5.3</xmlsec.version>
+        <xmlsec.version>1.5.4</xmlsec.version>
         <xom.version>1.2.5</xom.version>
         <xstream.version>1.4.4</xstream.version>
         <xws.version>3.0</xws.version>
@@ -600,7 +601,11 @@
             </exclusions>
         </dependency>
 
-
+        <dependency>
+            <groupId>org.mvel</groupId>
+            <artifactId>mvel2</artifactId>
+            <version>${mvel2.version}</version>
+        </dependency>
         <dependency>
             <groupId>org.apache.ant</groupId>
             <artifactId>ant</artifactId>

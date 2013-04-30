@@ -25,7 +25,7 @@
         <codehaus.helper.version>1.5</codehaus.helper.version>
         <commons-beanutils.version>1.8.3</commons-beanutils.version>
         <commons-cli.version>1.2</commons-cli.version>
-        <commons-codec.version>1.7</commons-codec.version>
+        <commons-codec.version>1.8</commons-codec.version>
         <commons-collections.version>3.2.1</commons-collections.version>
         <commons-configuration.version>1.9</commons-configuration.version>
         <commons-dbcp.version>1.4</commons-dbcp.version>
@@ -40,7 +40,8 @@
         <commons-net.version>3.2</commons-net.version>
         <commons-pool.version>1.6</commons-pool.version>
         <commons-validator.version>1.4.0</commons-validator.version>
-        <derby.version>10.9.1.0</derby.version>
+        <dbunit.version>2.4.9</dbunit.version>
+        <derby.version>10.10.1.0</derby.version>
         <detail>true</detail>
         <dom4j.version>1.6.1</dom4j.version>
         <ehcache.version>2.6.5</ehcache.version>
@@ -69,8 +70,9 @@
         <javassist.version>3.17.1-GA</javassist.version>
         <javaws.version>2.1-1</javaws.version>
         <javax-el.version>3.0-b08</javax-el.version>
+        <javax-el-api.version>2.2.1-b04</javax-el-api.version>
         <jaxb-api.version>2.2.9</jaxb-api.version>
-        <jaxb-impl.version>2.2.7-b63</jaxb-impl.version>
+        <jaxb-impl.version>2.2.7</jaxb-impl.version>
         <jaxws-api.version>2.2.11</jaxws-api.version>
         <jayway-availability.version>1.3.5</jayway-availability.version>
         <jboss-logging.version>3.1.3.GA</jboss-logging.version>
@@ -86,7 +88,7 @@
         <jstl.version>1.2</jstl.version>
         <jta.version>1.1</jta.version>
         <junit.version>4.11</junit.version>
-        <logback.version>1.0.11</logback.version>
+        <logback.version>1.0.12</logback.version>
         <maven-antrun-plugin.version>1.7</maven-antrun-plugin.version>
         <maven-apt-plugin.version>1.0.4</maven-apt-plugin.version>
         <maven-aspectj-plugin.version>1.4</maven-aspectj-plugin.version>
@@ -154,31 +156,31 @@
         <spring-data-graph.version>1.1.0.RELEASE</spring-data-graph.version>
         <spring-data-hadoop.version>1.0.0.RELEASE</spring-data-hadoop.version>
         <spring-data-jdbc.version>1.0.0.RELEASE</spring-data-jdbc.version>
-        <spring-data-jpa.version>1.3.0.RELEASE</spring-data-jpa.version>
-        <spring-data-mongodb.version>1.1.1.RELEASE</spring-data-mongodb.version>
+        <spring-data-jpa.version>1.3.1.RELEASE</spring-data-jpa.version>
+        <spring-data-mongodb.version>1.2.1.RELEASE</spring-data-mongodb.version>
         <spring-data-neo4j.version>2.1.0.RELEASE</spring-data-neo4j.version>
         <spring-data-oracle.version>1.0.0.RELEASE</spring-data-oracle.version>
-        <spring-data-redis.version>1.0.3.RELEASE</spring-data-redis.version>
+        <spring-data-redis.version>1.0.4.RELEASE</spring-data-redis.version>
         <spring-data-rest.version>1.0.0.RELEASE</spring-data-rest.version>
         <spring-data-solr.version>1.0.0.RC1</spring-data-solr.version>
         <spring-framework.version>3.2.2.RELEASE</spring-framework.version>
         <spring-integration.version>3.0.0.M1</spring-integration.version>
         <spring-redis.version>1.0.0.RELEASE</spring-redis.version>
         <spring-retry.version>1.0.2.RELEASE</spring-retry.version>
-        <spring-security.version>3.1.3.RELEASE</spring-security.version>
+        <spring-security.version>3.1.4.RELEASE</spring-security.version>
         <spring-webflow.version>2.3.1.RELEASE</spring-webflow.version>
         <spring-ws.version>2.1.3.RELEASE</spring-ws.version>
         <stax.version>1.0.1</stax.version>
         <subetha-smtp.version>1.2</subetha-smtp.version>
-        <sysout.slf4j.version>1.0.2</sysout.slf4j.version>
+        <sysout-slf4j.version>1.0.2</sysout-slf4j.version>
         <tiles.version>3.0.1</tiles.version>
-        <validation.version>1.0.0.GA</validation.version>
+        <validation.version>1.1.0.Final</validation.version>
         <wicket.bootstrap.version>0.7.6</wicket.bootstrap.version>
         <wicket.version>6.6.0</wicket.version>
-        <wicketstuff.version>6.5.0</wicketstuff.version>
+        <wicketstuff.version>6.7.0</wicketstuff.version>
         <webjars-bootstrap.version>2.3.1</webjars-bootstrap.version>
         <webjars-jquery-ui.version>1.10.2</webjars-jquery-ui.version>
-        <webjars-jquery.version>1.9.1</webjars-jquery.version>
+        <webjars-jquery.version>2.0.0</webjars-jquery.version>
         <wsdl4j.version>1.6.3</wsdl4j.version>
         <wss4j.version>1.6.10</wss4j.version>
         <wtp.version>2.0</wtp.version>
@@ -564,7 +566,11 @@
             <artifactId>bootstrap</artifactId>
             <version>${webjars-bootstrap.version}</version>
         </dependency>
-
+        <dependency>
+            <groupId>org.dbunit</groupId>
+            <artifactId>dbunit</artifactId>
+            <version>${dbunit.version}</version>
+        </dependency>
         <dependency>
             <groupId>org.webjars</groupId>
             <artifactId>jquery-ui</artifactId>
@@ -583,7 +589,7 @@
         <dependency>
             <groupId>javax.el</groupId>
             <artifactId>el-api</artifactId>
-            <version>2.2.1-b04</version>
+            <version>${javax-el-api.version}</version>
         </dependency>
         <dependency>
             <groupId>javax.servlet.jsp</groupId>
@@ -1321,7 +1327,7 @@
         <dependency>
             <groupId>uk.org.lidalia</groupId>
             <artifactId>sysout-over-slf4j</artifactId>
-            <version>${sysout.slf4j.version}</version>
+            <version>${sysout-slf4j.version}</version>
         </dependency>
         <dependency>
             <groupId>org.codehaus.jackson</groupId>
@@ -2701,7 +2707,7 @@
             <dependency>
                 <groupId>uk.org.lidalia</groupId>
                 <artifactId>sysout-over-slf4j</artifactId>
-                <version>${sysout.slf4j.version}</version>
+                <version>${sysout-slf4j.version}</version>
             </dependency>
 
             <dependency>

@@ -19,15 +19,15 @@
         <apache-httpcomponents.version>4.3.2</apache-httpcomponents.version>
         <asm.version>3.3.1</asm.version>
         <aspectj.version>1.7.4</aspectj.version>
-        <atomikos.version>3.8.0</atomikos.version>
-        <castor.version>1.3.3-rc1</castor.version>
+        <atomikos.version>3.9.0</atomikos.version>
+        <castor.version>1.3.3</castor.version>
         <cglib.version>3.0</cglib.version>
         <codehaus.helper.version>1.5</codehaus.helper.version>
         <commons-beanutils.version>1.8.3</commons-beanutils.version>
         <commons-cli.version>1.2</commons-cli.version>
         <commons-codec.version>1.9</commons-codec.version>
         <commons-collections.version>3.2.1</commons-collections.version>
-        <commons-configuration.version>1.9</commons-configuration.version>
+        <commons-configuration.version>1.10</commons-configuration.version>
         <commons-dbcp.version>1.4</commons-dbcp.version>
         <commons-digester2.version>2.1</commons-digester2.version>
         <commons-digester3.version>3.2</commons-digester3.version>
@@ -61,10 +61,10 @@
         <hibernate-core.version>4.2.5.Final</hibernate-core.version>
         <hibernate-jmx.version>3.5.6-Final</hibernate-jmx.version>
         <hibernate-jpa.version>1.0.1.Final</hibernate-jpa.version>
-        <hibernate-validator.version>5.0.1.Final</hibernate-validator.version>
+        <hibernate-validator.version>5.0.2.Final</hibernate-validator.version>
         <hibernate.version>4.2.5.Final</hibernate.version>
         <hsqldb.version>2.3.2</hsqldb.version>
-        <icu4j.version>51.2</icu4j.version>
+        <icu4j.version>52.1</icu4j.version>
         <jackson.version>1.9.12</jackson.version>
         <jasypt.version>1.9.1</jasypt.version>
         <java-el.version>1.0</java-el.version>
@@ -76,8 +76,8 @@
         <jaxb-api.version>2.2.11</jaxb-api.version>
         <jaxb-impl.version>2.2.8-b01</jaxb-impl.version>
         <jaxws-api.version>2.2.11</jaxws-api.version>
-        <jayway-availability.version>1.3.5</jayway-availability.version>
-        <jboss-logging.version>3.1.3.GA</jboss-logging.version>
+        <jayway-availability.version>1.4.0</jayway-availability.version>
+        <jboss-logging.version>3.1.4.GA</jboss-logging.version>
         <jdk.version>1.6</jdk.version>
         <jdom.version>2.0.2</jdom.version>
         <jettison.version>1.3.5</jettison.version>
@@ -96,47 +96,47 @@
         <maven-aspectj-plugin.version>1.4</maven-aspectj-plugin.version>
         <maven-assembly-plugin.version>2.4</maven-assembly-plugin.version>
         <maven-build-helper-plugin.version>1.8</maven-build-helper-plugin.version>
-        <maven-checkstyle-plugin.version>2.10</maven-checkstyle-plugin.version>
+        <maven-checkstyle-plugin.version>2.11</maven-checkstyle-plugin.version>
         <maven-clean-plugin.version>2.5</maven-clean-plugin.version>
         <maven-clover2-plugin.version>3.1.12</maven-clover2-plugin.version>
         <maven-compiler-plugin.version>3.1</maven-compiler-plugin.version>
         <maven-dependency-plugin.version>2.8</maven-dependency-plugin.version>
-        <maven-deploy-plugin.version>2.8</maven-deploy-plugin.version>
+        <maven-deploy-plugin.version>2.8.1</maven-deploy-plugin.version>
         <maven-doxia.version>1.5</maven-doxia.version>
         <maven-eclipse-plugin.version>2.9</maven-eclipse-plugin.version>
         <maven-enforcer-plugin.version>1.3.1</maven-enforcer-plugin.version>
         <maven-exec-plugin.version>1.2.1</maven-exec-plugin.version>
         <maven-failsafe-plugin.version>2.16</maven-failsafe-plugin.version>
-        <maven-findbugs-plugin.version>2.5.2</maven-findbugs-plugin.version>
+        <maven-findbugs-plugin.version>2.5.3</maven-findbugs-plugin.version>
         <maven-groovy-plugin.version>2.0-SNAPSHOT</maven-groovy-plugin.version>
         <maven-help-plugin.version>2.2</maven-help-plugin.version>
-        <maven-install-plugin.version>2.5</maven-install-plugin.version>
+        <maven-install-plugin.version>2.5.1</maven-install-plugin.version>
         <maven-jar-plugin.version>2.4</maven-jar-plugin.version>
         <maven-javadoc-plugin.version>2.9.1</maven-javadoc-plugin.version>
         <maven-jaxb-plugin.version>0.8.3</maven-jaxb-plugin.version>
-        <maven-jetty-plugin.version>8.1.13.v20130916</maven-jetty-plugin.version>
-        <maven-jxr-plugin.version>2.3</maven-jxr-plugin.version>
+        <maven-jetty-plugin.version>8.1.14.v20131031</maven-jetty-plugin.version>
+        <maven-jxr-plugin.version>2.4</maven-jxr-plugin.version>
         <maven-m2e-lifecycle-plugin.version>1.0.0</maven-m2e-lifecycle-plugin.version>
         <maven-pdf-plugin.version>1.2</maven-pdf-plugin.version>
         <maven-plugin-plugin.version>3.2</maven-plugin-plugin.version>
         <maven-pmd-plugin.version>3.0.1</maven-pmd-plugin.version>
         <maven-project-info-reports-plugin.version>2.7</maven-project-info-reports-plugin.version>
-        <maven-release-plugin.version>2.4.1</maven-release-plugin.version>
+        <maven-release-plugin.version>2.4.2</maven-release-plugin.version>
         <maven-resources-plugin.version>2.6</maven-resources-plugin.version>
         <maven-scala-plugin.version>2.15.2</maven-scala-plugin.version>
-        <maven-scm-plugin.version>1.8.1</maven-scm-plugin.version>
+        <maven-scm-plugin.version>1.9</maven-scm-plugin.version>
         <maven-selenium-plugin.version>2.3</maven-selenium-plugin.version>
         <maven-site-plugin.version>3.3</maven-site-plugin.version>
-        <maven-sonar-plugin.version>3.7.1-RC2</maven-sonar-plugin.version>
+        <maven-sonar-plugin.version>4.1.2</maven-sonar-plugin.version>
         <maven-source-plugin.version>2.2.1</maven-source-plugin.version>
         <maven-surefire-plugin.version>2.16</maven-surefire-plugin.version>
         <maven-taglist-plugin.version>2.4</maven-taglist-plugin.version>
-        <maven-tomcat-plugin.version>2.1</maven-tomcat-plugin.version>
+        <maven-tomcat-plugin.version>2.2</maven-tomcat-plugin.version>
         <maven.version.range>[3.1.0,4.0.0)</maven.version.range>
         <maven-versions-plugin.version>2.1</maven-versions-plugin.version>
         <maven-war-plugin.version>2.4</maven-war-plugin.version>
         <mockito.version>1.9.5</mockito.version>
-        <mvel2.version>2.1.6.Final</mvel2.version>
+        <mvel2.version>2.1.7.Final</mvel2.version>
         <mysql.version>5.1.29</mysql.version>
         <blueprints.version>1.2</blueprints.version>
         <gremlin.version>1.5</gremlin.version>
@@ -145,15 +145,15 @@
         <powermock.version>1.5.4</powermock.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-        <querydsl.version>3.2.3</querydsl.version>
+        <querydsl.version>3.3.0</querydsl.version>
         <rome.version>1.0</rome.version>
         <selenium-server.version>2.40.0</selenium-server.version>
         <servlet.version>3.0.1</servlet.version>
         <slf4j.version>1.7.6</slf4j.version>
         <spock.version>0.7-groovy-2.0</spock.version>
-        <spring-amqp.version>1.2.0.RELEASE</spring-amqp.version>
+        <spring-amqp.version>1.2.1.RELEASE</spring-amqp.version>
         <spring-batch-admin.version>1.2.2.RELEASE</spring-batch-admin.version>
-        <spring-batch.version>2.2.2.RELEASE</spring-batch.version>
+        <spring-batch.version>2.2.3.RELEASE</spring-batch.version>
         <spring-data-commons.version>1.6.4.RELEASE</spring-data-commons.version>
         <spring-data-gemfire.version>1.3.3.RELEASE</spring-data-gemfire.version>
         <spring-data-graph.version>1.0.0.RELEASE</spring-data-graph.version>
@@ -162,27 +162,24 @@
         <spring-data-jpa.version>1.4.4.RELEASE</spring-data-jpa.version>
         <spring-data-mongodb.version>1.3.4.RELEASE</spring-data-mongodb.version>
         <spring-data-oracle.version>1.0.0.RELEASE</spring-data-oracle.version>
-        <spring-data-redis.version>1.1.0.RELEASE</spring-data-redis.version>
+        <spring-data-redis.version>1.1.1.RELEASE</spring-data-redis.version>
         <spring-data-rest.version>1.0.0.RELEASE</spring-data-rest.version>
         <spring-data-solr.version>1.0.0.RELEASE</spring-data-solr.version>
         <spring-framework.version>4.0.2.RELEASE</spring-framework.version>
         <spring-integration.version>3.0.1.RELEASE</spring-integration.version>
         <spring-redis.version>1.1.1.RELEASE</spring-redis.version>
-        <spring-retry.version>1.0.2.RELEASE</spring-retry.version>
+        <spring-retry.version>1.0.3.RELEASE</spring-retry.version>
         <spring-security.version>3.2.1.RELEASE</spring-security.version>
         <spring-webflow.version>2.3.1.RELEASE</spring-webflow.version>
         <spring-ws.version>2.1.4.RELEASE</spring-ws.version>
         <stax.version>1.0.1</stax.version>
         <subetha-smtp.version>1.2</subetha-smtp.version>
         <sysout-slf4j.version>1.0.2</sysout-slf4j.version>
-        <tiles.version>3.0.1</tiles.version>
+        <tiles.version>3.0.3</tiles.version>
         <validation.version>1.1.0.Final</validation.version>
-        <wicket.bootstrap.version>0.7.6</wicket.bootstrap.version>
-        <wicket.version>6.9.1</wicket.version>
-        <wicketstuff.version>6.10.0</wicketstuff.version>
         <webjars-bootstrap.version>3.0.0</webjars-bootstrap.version>
-        <webjars-jquery.version>2.0.3</webjars-jquery.version>
-        <webjars-jquery-ui.version>1.10.2-1</webjars-jquery-ui.version>
+        <webjars-jquery.version>2.1.0</webjars-jquery.version>
+        <webjars-jquery-ui.version>1.10.3</webjars-jquery-ui.version>
         <wsdl4j.version>1.6.3</wsdl4j.version>
         <wss4j.version>1.6.14</wss4j.version>
         <wtp.version>2.0</wtp.version>
@@ -387,11 +384,6 @@
             <version>${maven-project-info-reports-plugin.version}</version>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-project-info-reports-plugin</artifactId>
-        </dependency>
-        <dependency>
-            <version>${maven-release-plugin.version}</version>
-            <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-release-plugin</artifactId>
         </dependency>
         <dependency>
             <version>${maven-resources-plugin.version}</version>
@@ -2074,10 +2066,6 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-plugin-plugin</artifactId>
-            </plugin>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-release-plugin</artifactId>
             </plugin>
         </plugins>
     </build>

@@ -14,28 +14,28 @@
         <activation.version>1.1.1</activation.version>
         <activemq.version>5.7.0</activemq.version>
         <antlr.version>2.7.7</antlr.version>
-        <ant.version>1.9.2</ant.version>
+        <ant.version>1.9.3</ant.version>
+        <apache-fop.version>1.1_2</apache-fop.version>
+        <apache-httpcomponents.version>4.3.2</apache-httpcomponents.version>
         <asm.version>3.3.1</asm.version>
-        <aspectj.version>1.7.3</aspectj.version>
+        <aspectj.version>1.7.4</aspectj.version>
         <atomikos.version>3.8.0</atomikos.version>
         <castor.version>1.3.3-rc1</castor.version>
         <cglib.version>3.0</cglib.version>
-        <cloudfoundry.memory>256</cloudfoundry.memory>
-        <cloudfoundry.version>0.8.2</cloudfoundry.version>
         <codehaus.helper.version>1.5</codehaus.helper.version>
         <commons-beanutils.version>1.8.3</commons-beanutils.version>
         <commons-cli.version>1.2</commons-cli.version>
-        <commons-codec.version>1.8</commons-codec.version>
+        <commons-codec.version>1.9</commons-codec.version>
         <commons-collections.version>3.2.1</commons-collections.version>
         <commons-configuration.version>1.9</commons-configuration.version>
         <commons-dbcp.version>1.4</commons-dbcp.version>
         <commons-digester2.version>2.1</commons-digester2.version>
         <commons-digester3.version>3.2</commons-digester3.version>
-        <commons-exec.version>1.1</commons-exec.version>
-        <commons-fileupload.version>1.3</commons-fileupload.version>
+        <commons-exec.version>1.2</commons-exec.version>
+        <commons-fileupload.version>1.3.1</commons-fileupload.version>
         <commons-io.version>2.4</commons-io.version>
         <commons-lang2.version>2.6</commons-lang2.version>
-        <commons-lang3.version>3.1</commons-lang3.version>
+        <commons-lang3.version>3.2.1</commons-lang3.version>
         <commons-net.version>3.3</commons-net.version>
         <commons-pool.version>1.6</commons-pool.version>
         <commons-validator.version>1.4.0</commons-validator.version>
@@ -43,18 +43,18 @@
         <derby.version>10.10.1.1</derby.version>
         <detail>true</detail>
         <dom4j.version>1.6.1</dom4j.version>
-        <ehcache.version>2.6.6</ehcache.version>
+        <ehcache.version>2.6.8</ehcache.version>
         <flexjson.version>2.1</flexjson.version>
         <ftpserver.version>1.0.6</ftpserver.version>
         <geronimo-connector.version>3.1.1</geronimo-connector.version>
         <geronimo-jee.version>1.0.1</geronimo-jee.version>
         <geronimo-jta.version>1.1.1</geronimo-jta.version>
         <geronimo-ws.version>1.1.3</geronimo-ws.version>
-        <groovy.version>2.2.0-beta-2</groovy.version>
-        <groovy-eclipse-batch.version>2.1.5-03</groovy-eclipse-batch.version>
+        <groovy.version>2.2.1</groovy.version>
+        <groovy-eclipse-batch.version>2.1.8-01</groovy-eclipse-batch.version>
         <groovy-eclipse-compiler.version>2.8.0-01</groovy-eclipse-compiler.version>
         <gpars.version>1.1.0</gpars.version>
-        <h2database.version>1.3.173</h2database.version>
+        <h2database.version>1.3.175</h2database.version>
         <hamcrest.version>1.3</hamcrest.version>
         <hessian.version>3.1.5</hessian.version>
         <hibernate-annotations.version>3.5.6-Final</hibernate-annotations.version>
@@ -63,14 +63,13 @@
         <hibernate-jpa.version>1.0.1.Final</hibernate-jpa.version>
         <hibernate-validator.version>5.0.1.Final</hibernate-validator.version>
         <hibernate.version>4.2.5.Final</hibernate.version>
-        <hsqldb.version>2.3.0</hsqldb.version>
-        <http-components.version>4.3</http-components.version>
+        <hsqldb.version>2.3.2</hsqldb.version>
         <icu4j.version>51.2</icu4j.version>
         <jackson.version>1.9.12</jackson.version>
         <jasypt.version>1.9.1</jasypt.version>
         <java-el.version>1.0</java-el.version>
         <javamail.version>1.5.0-b01</javamail.version>
-        <javassist.version>3.18.0-GA</javassist.version>
+        <javassist.version>3.18.1-GA</javassist.version>
         <javaws.version>2.1-1</javaws.version>
         <javax-el.version>3.0.0</javax-el.version>
         <javax-el-api.version>2.2.1-b04</javax-el-api.version>
@@ -81,7 +80,7 @@
         <jboss-logging.version>3.1.3.GA</jboss-logging.version>
         <jdk.version>1.6</jdk.version>
         <jdom.version>2.0.2</jdom.version>
-        <jettison.version>1.3.4</jettison.version>
+        <jettison.version>1.3.5</jettison.version>
         <jms.version>1.1.1</jms.version>
         <jodatime-hibernate.version>1.3</jodatime-hibernate.version>
         <jodatime-jsptags.version>1.1.1</jodatime-jsptags.version>
@@ -91,21 +90,19 @@
         <jstl.version>1.2</jstl.version>
         <jta.version>1.1</jta.version>
         <junit.version>4.11</junit.version>
-        <logback.version>1.0.13</logback.version>
+        <logback.version>1.1.1</logback.version>
         <maven-antrun-plugin.version>1.7</maven-antrun-plugin.version>
         <maven-apt-plugin.version>1.0.4</maven-apt-plugin.version>
-        <maven-aspectj-plugin.version>1.5</maven-aspectj-plugin.version>
+        <maven-aspectj-plugin.version>1.4</maven-aspectj-plugin.version>
         <maven-assembly-plugin.version>2.4</maven-assembly-plugin.version>
         <maven-build-helper-plugin.version>1.8</maven-build-helper-plugin.version>
         <maven-checkstyle-plugin.version>2.10</maven-checkstyle-plugin.version>
         <maven-clean-plugin.version>2.5</maven-clean-plugin.version>
-        <maven-cloudfoundry-plugin.version>1.0.0.M4</maven-cloudfoundry-plugin.version>
         <maven-clover2-plugin.version>3.1.12</maven-clover2-plugin.version>
-        <maven-cobertura-plugin.version>2.6</maven-cobertura-plugin.version>
         <maven-compiler-plugin.version>3.1</maven-compiler-plugin.version>
         <maven-dependency-plugin.version>2.8</maven-dependency-plugin.version>
-        <maven-deploy-plugin.version>2.7</maven-deploy-plugin.version>
-        <maven-doxia.version>1.4</maven-doxia.version>
+        <maven-deploy-plugin.version>2.8</maven-deploy-plugin.version>
+        <maven-doxia.version>1.5</maven-doxia.version>
         <maven-eclipse-plugin.version>2.9</maven-eclipse-plugin.version>
         <maven-enforcer-plugin.version>1.3.1</maven-enforcer-plugin.version>
         <maven-exec-plugin.version>1.2.1</maven-exec-plugin.version>
@@ -140,48 +137,41 @@
         <maven-war-plugin.version>2.4</maven-war-plugin.version>
         <mockito.version>1.9.5</mockito.version>
         <mvel2.version>2.1.6.Final</mvel2.version>
-        <mysql.version>5.1.26</mysql.version>
-        <neo4j.version>1.9.3</neo4j.version>
-        <neo4j-cypher-dsl.version>1.9</neo4j-cypher-dsl.version>
-        <neo4j-graph-collections.version>0.6-neo4j-1.9</neo4j-graph-collections.version>
-        <neo4j-spatial.version>0.11-neo4j-1.9</neo4j-spatial.version>
+        <mysql.version>5.1.29</mysql.version>
         <blueprints.version>1.2</blueprints.version>
         <gremlin.version>1.5</gremlin.version>
         <pipes.version>1.5</pipes.version>
-
         <postgres.version>9.1-901-1.jdbc4</postgres.version>
-        <powermock.version>1.5.1</powermock.version>
+        <powermock.version>1.5.4</powermock.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <querydsl.version>3.2.3</querydsl.version>
         <rome.version>1.0</rome.version>
-        <selenium-server.version>2.35.0</selenium-server.version>
+        <selenium-server.version>2.40.0</selenium-server.version>
         <servlet.version>3.0.1</servlet.version>
-        <slf4j.version>1.7.5</slf4j.version>
+        <slf4j.version>1.7.6</slf4j.version>
         <spock.version>0.7-groovy-2.0</spock.version>
         <spring-amqp.version>1.2.0.RELEASE</spring-amqp.version>
         <spring-batch-admin.version>1.2.2.RELEASE</spring-batch-admin.version>
         <spring-batch.version>2.2.2.RELEASE</spring-batch.version>
-        <spring-data-commons.version>1.6.1.RELEASE</spring-data-commons.version>
-        <spring-data-gemfire.version>1.2.2.RELEASE</spring-data-gemfire.version>
+        <spring-data-commons.version>1.6.4.RELEASE</spring-data-commons.version>
+        <spring-data-gemfire.version>1.3.3.RELEASE</spring-data-gemfire.version>
         <spring-data-graph.version>1.0.0.RELEASE</spring-data-graph.version>
-        <spring-data-hadoop.version>1.0.1.RELEASE</spring-data-hadoop.version>
+        <spring-data-hadoop.version>1.0.2.RELEASE-hadoop22</spring-data-hadoop.version>
         <spring-data-jdbc.version>1.0.0.RELEASE</spring-data-jdbc.version>
-        <spring-data-jpa.version>1.4.1.RELEASE</spring-data-jpa.version>
-        <spring-data-mongodb.version>1.3.1.RELEASE</spring-data-mongodb.version>
-        <spring-data-neo4j.version>2.3.1.RELEASE</spring-data-neo4j.version>
+        <spring-data-jpa.version>1.4.4.RELEASE</spring-data-jpa.version>
+        <spring-data-mongodb.version>1.3.4.RELEASE</spring-data-mongodb.version>
         <spring-data-oracle.version>1.0.0.RELEASE</spring-data-oracle.version>
         <spring-data-redis.version>1.1.0.RELEASE</spring-data-redis.version>
         <spring-data-rest.version>1.0.0.RELEASE</spring-data-rest.version>
-        <!--<spring-data-solr.version>1.0.0.RC1</spring-data-solr.version>-->
-        <spring-framework.version>3.2.4.RELEASE</spring-framework.version>
-        <spring-integration.version>2.2.5.RELEASE</spring-integration.version>
-        <!--<spring-integration.version>3.0.0.M1</spring-integration.version>-->
-        <spring-redis.version>1.0.0.RELEASE</spring-redis.version>
+        <spring-data-solr.version>1.0.0.RELEASE</spring-data-solr.version>
+        <spring-framework.version>4.0.2.RELEASE</spring-framework.version>
+        <spring-integration.version>3.0.1.RELEASE</spring-integration.version>
+        <spring-redis.version>1.1.1.RELEASE</spring-redis.version>
         <spring-retry.version>1.0.2.RELEASE</spring-retry.version>
-        <spring-security.version>3.1.4.RELEASE</spring-security.version>
+        <spring-security.version>3.2.1.RELEASE</spring-security.version>
         <spring-webflow.version>2.3.1.RELEASE</spring-webflow.version>
-        <spring-ws.version>2.1.3.RELEASE</spring-ws.version>
+        <spring-ws.version>2.1.4.RELEASE</spring-ws.version>
         <stax.version>1.0.1</stax.version>
         <subetha-smtp.version>1.2</subetha-smtp.version>
         <sysout-slf4j.version>1.0.2</sysout-slf4j.version>
@@ -194,10 +184,10 @@
         <webjars-jquery.version>2.0.3</webjars-jquery.version>
         <webjars-jquery-ui.version>1.10.2-1</webjars-jquery-ui.version>
         <wsdl4j.version>1.6.3</wsdl4j.version>
-        <wss4j.version>1.6.12</wss4j.version>
+        <wss4j.version>1.6.14</wss4j.version>
         <wtp.version>2.0</wtp.version>
         <xalan.version>2.7.1</xalan.version>
-        <xbean.version>3.14</xbean.version>
+        <xbean.version>3.16</xbean.version>
         <xerces.version>2.11.0</xerces.version>
         <xmlapis.version>1.0.b2</xmlapis.version>
         <xmlsec.version>1.5.5</xmlsec.version>
@@ -209,32 +199,15 @@
 
     <dependencies>
         <dependency>
-            <groupId>org.neo4j</groupId>
-            <artifactId>neo4j</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.neo4j</groupId>
-            <artifactId>neo4j-cypher-dsl</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.neo4j</groupId>
-            <artifactId>neo4j-graph-collections</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.neo4j</groupId>
-            <artifactId>server-api</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.neo4j</groupId>
-            <artifactId>neo4j-spatial</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>com.tinkerpop.blueprints</groupId>
-            <artifactId>blueprints-core</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>com.tinkerpop.blueprints</groupId>
-            <artifactId>blueprints-neo4j-graph</artifactId>
+            <groupId>org.apache.servicemix.bundles</groupId>
+            <artifactId>org.apache.servicemix.bundles.fop</artifactId>
+            <version>${apache-fop.version}</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>commons-logging</groupId>
+                    <artifactId>commons-logging</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
         <dependency>
             <groupId>com.tinkerpop.gremlin</groupId>
@@ -267,49 +240,6 @@
         <dependency>
             <groupId>org.scala-tools</groupId>
             <artifactId>maven-scala-plugin</artifactId>
-        </dependency>
-        <!-- **************************** -->
-        <!-- ********** WICKET ********** -->
-        <!-- **************************** -->
-        <dependency>
-            <groupId>org.apache.wicket</groupId>
-            <artifactId>wicket-core</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.wicket</groupId>
-            <artifactId>wicket-util</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.wicket</groupId>
-            <artifactId>wicket-extensions</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.wicket</groupId>
-            <artifactId>wicket-datetime</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.wicket</groupId>
-            <artifactId>wicket-request</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.wicket</groupId>
-            <artifactId>wicket-auth-roles</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.odlabs.wiquery</groupId>
-            <artifactId>wiquery-core</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.odlabs.wiquery</groupId>
-            <artifactId>wiquery-jquery-ui</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>de.agilecoders.wicket</groupId>
-            <artifactId>bootstrap</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.wicketstuff</groupId>
-            <artifactId>wicketstuff-annotation</artifactId>
         </dependency>
         <dependency>
             <version>${maven-antrun-plugin.version}</version>
@@ -350,11 +280,6 @@
             <version>${maven-clover2-plugin.version}</version>
             <groupId>com.atlassian.maven.plugins</groupId>
             <artifactId>maven-clover2-plugin</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.codehaus.mojo</groupId>
-            <artifactId>cobertura-maven-plugin</artifactId>
-            <version>${maven-cobertura-plugin.version}</version>
         </dependency>
         <dependency>
             <version>${maven-compiler-plugin.version}</version>
@@ -528,11 +453,11 @@
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-war-plugin</artifactId>
         </dependency>
-        <dependency>
-            <groupId>org.springframework.data</groupId>
-            <artifactId>spring-data-neo4j</artifactId>
-            <version>${spring-data-neo4j.version}</version>
-        </dependency>
+        <!--<dependency>-->
+        <!--<groupId>org.springframework.data</groupId>-->
+        <!--<artifactId>spring-data-neo4j</artifactId>-->
+        <!--<version>${spring-data-neo4j.version}</version>-->
+        <!--</dependency>-->
         <dependency>
             <groupId>org.springframework.data</groupId>
             <artifactId>spring-data-mongodb</artifactId>
@@ -558,11 +483,11 @@
             <artifactId>spring-data-oracle</artifactId>
             <version>${spring-data-oracle.version}</version>
         </dependency>
-        <!--<dependency>-->
-        <!--<groupId>org.springframework.data</groupId>-->
-        <!--<artifactId>spring-data-solr</artifactId>-->
-        <!--<version>${spring-data-solr.version}</version>-->
-        <!--</dependency>-->
+        <dependency>
+            <groupId>org.springframework.data</groupId>
+            <artifactId>spring-data-solr</artifactId>
+            <version>${spring-data-solr.version}</version>
+        </dependency>
         <dependency>
             <groupId>org.springframework.data</groupId>
             <artifactId>spring-data-graph-core</artifactId>
@@ -1320,10 +1245,22 @@
                 </exclusion>
             </exclusions>
         </dependency>
+        <!--<dependency>-->
+        <!--<groupId>org.apache.xmlgraphics</groupId>-->
+        <!--<artifactId>fop</artifactId>-->
+        <!--<version>${apache-fop.version}</version>-->
+        <!--<exclusions>-->
+        <!--<exclusion>-->
+        <!--<groupId>commons-logging</groupId>-->
+        <!--<artifactId>commons-logging</artifactId>-->
+        <!--</exclusion>-->
+        <!--</exclusions>-->
+        <!--</dependency>-->
+
         <dependency>
             <groupId>org.apache.httpcomponents</groupId>
             <artifactId>httpclient</artifactId>
-            <version>${http-components.version}</version>
+            <version>${apache-httpcomponents.version}</version>
             <exclusions>
                 <exclusion>
                     <groupId>commons-logging</groupId>
@@ -1487,67 +1424,34 @@
                 <enabled>true</enabled>
             </snapshots>
         </repository>
-        <repository>
-            <id>neo4j-public-release-repository</id>
-            <url>http://m2.neo4j.org/releases</url>
-            <snapshots>
-                <enabled>false</enabled>
-            </snapshots>
-        </repository>
-        <!--<repository>-->
-            <!--<id>tinkerpop-repository</id>-->
-            <!--<url>http://tinkerpop.com/maven2</url>-->
-            <!--<snapshots>-->
-                <!--<enabled>false</enabled>-->
-            <!--</snapshots>-->
-        <!--</repository>-->
-        <!--
-        <repository>
-            <id>Maven.Central</id>
-            <url>http://repo.maven.apache.org/maven2</url>
-        </repository>
 
+        <!--
                  <repository>
                     <id>spring.release</id>
                     <url>http://repo.springsource.org/repo</url>
                 </repository>
-        <repository>
-            <id>spring.milestone</id>
-            <url>http://repo.springsource.org/milestone</url>
-        </repository>
-        <repository>
-            <id>spring.snapshot</id>
-            <url>http://repo.springsource.org/snapshot</url>
-            <releases>
-                <enabled>false</enabled>
-            </releases>
-            <snapshots>
-                <enabled>true</enabled>
-            </snapshots>
-        </repository>
-
-        <repository>
-            <id>spring.milestone</id>
-            <url>s3://maven.springframework.org/milestone</url>
-        </repository>
-        <repository>
-            <id>spring.snapshot</id>
-            <url>s3://maven.springframework.org/snapshot</url>
-            <releases>
-                <enabled>false</enabled>
-            </releases>
-            <snapshots>
-                <enabled>true</enabled>
-            </snapshots>
-        </repository>
-                -->
+                <repository>
+                    <id>spring.milestone</id>
+                    <url>http://repo.springsource.org/milestone</url>
+                </repository>
+                <repository>
+                    <id>spring.snapshot</id>
+                    <url>http://repo.springsource.org/snapshot</url>
+                    <releases>
+                        <enabled>false</enabled>
+                    </releases>
+                    <snapshots>
+                        <enabled>true</enabled>
+                    </snapshots>
+                </repository>
+                        -->
 
         <!-- JBoss repo only needed for Spring Security Dependency of com.sun.xml.wsit:xws-security:jar:1.3.1 -->
-        <!-- <repository>
-           <id>jboss.repository.releases.public</id>
-           <name>JBoss Repo Public</name>
-           <url>http://repository.jboss.org/nexus/content/groups/public-jboss</url>
-       </repository>-->
+        <repository>
+            <id>jboss.repository.releases.public</id>
+            <name>JBoss Repo Public</name>
+            <url>http://repository.jboss.org/nexus/content/groups/public-jboss</url>
+        </repository>
     </repositories>
 
     <pluginRepositories>
@@ -1676,32 +1580,6 @@
                             <version>${maven-doxia.version}</version>
                         </dependency>
                     </dependencies>
-                </plugin>
-                <plugin>
-                    <groupId>org.codehaus.mojo</groupId>
-                    <artifactId>cobertura-maven-plugin</artifactId>
-                    <version>${maven-cobertura-plugin.version}</version>
-                    <configuration>
-                        <aggregate>true</aggregate>
-                        <check>
-                            <branchRate>85</branchRate>
-                            <lineRate>85</lineRate>
-                            <haltOnFailure>true</haltOnFailure>
-                            <totalBranchRate>85</totalBranchRate>
-                            <totalLineRate>85</totalLineRate>
-                            <packageLineRate>85</packageLineRate>
-                            <packageBranchRate>85</packageBranchRate>
-                        </check>
-                        <instrumentation>
-                            <ignores>
-                                <ignore>org.aspectj.runtime.*</ignore>
-                            </ignores>
-                            <excludes>
-                                <exclude>**/aspects/*.class</exclude>
-                                <exclude>**/*$AjcClosure*</exclude>
-                            </excludes>
-                        </instrumentation>
-                    </configuration>
                 </plugin>
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
@@ -2197,6 +2075,10 @@
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-plugin-plugin</artifactId>
             </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-release-plugin</artifactId>
+            </plugin>
         </plugins>
     </build>
 
@@ -2223,51 +2105,10 @@
     <dependencyManagement>
         <dependencies>
             <dependency>
-                <groupId>org.neo4j</groupId>
-                <artifactId>neo4j</artifactId>
-                <version>${neo4j.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.neo4j</groupId>
-                <artifactId>neo4j-spatial</artifactId>
-                <version>${neo4j-spatial.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.neo4j</groupId>
-                <artifactId>neo4j-cypher-dsl</artifactId>
-                <version>${neo4j-cypher-dsl.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.neo4j</groupId>
-                <artifactId>neo4j-graph-collections</artifactId>
-                <version>${neo4j-graph-collections.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.neo4j</groupId>
-                <artifactId>server-api</artifactId>
-                <version>${neo4j.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.neo4j</groupId>
-                <artifactId>neo4j-management</artifactId>
-                <version>${neo4j.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.tinkerpop.blueprints</groupId>
-                <artifactId>blueprints-core</artifactId>
-                <version>${blueprints.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.tinkerpop.blueprints</groupId>
-                <artifactId>blueprints-neo4j-graph</artifactId>
-                <version>${blueprints.version}</version>
-            </dependency>
-            <dependency>
                 <groupId>com.tinkerpop.gremlin</groupId>
                 <artifactId>gremlin-groovy</artifactId>
                 <version>${gremlin.version}</version>
             </dependency>
-            
             <dependency>
                 <groupId>org.codehaus.groovy</groupId>
                 <artifactId>groovy-eclipse-compiler</artifactId>
@@ -2309,71 +2150,6 @@
                 <artifactId>maven-scala-plugin</artifactId>
                 <version>${maven-scala-plugin.version}</version>
             </dependency>
-            <!-- **************************** -->
-            <!-- ********** WICKET ********** -->
-            <!-- **************************** -->
-            <dependency>
-                <groupId>org.apache.wicket</groupId>
-                <artifactId>wicket-core</artifactId>
-                <version>${wicket.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.apache.wicket</groupId>
-                <artifactId>wicket-util</artifactId>
-                <version>${wicket.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.apache.wicket</groupId>
-                <artifactId>wicket-extensions</artifactId>
-                <version>${wicket.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.apache.wicket</groupId>
-                <artifactId>wicket-datetime</artifactId>
-                <version>${wicket.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.apache.wicket</groupId>
-                <artifactId>wicket-request</artifactId>
-                <version>${wicket.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.apache.wicket</groupId>
-                <artifactId>wicket-auth-roles</artifactId>
-                <version>${wicket.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.odlabs.wiquery</groupId>
-                <artifactId>wiquery-core</artifactId>
-                <version>${wicket.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.odlabs.wiquery</groupId>
-                <artifactId>wiquery-jquery-ui</artifactId>
-                <version>${wicket.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>de.agilecoders.wicket</groupId>
-                <artifactId>bootstrap</artifactId>
-                <version>${wicket.bootstrap.version}</version>
-                <exclusions>
-                    <exclusion>
-                        <groupId>commons-logging</groupId>
-                        <artifactId>commons-logging</artifactId>
-                    </exclusion>
-                </exclusions>
-            </dependency>
-            <dependency>
-                <groupId>org.wicketstuff</groupId>
-                <artifactId>wicketstuff-annotation</artifactId>
-                <version>${wicketstuff.version}</version>
-                <exclusions>
-                    <exclusion>
-                        <groupId>commons-logging</groupId>
-                        <artifactId>commons-logging</artifactId>
-                    </exclusion>
-                </exclusions>
-            </dependency>
             <dependency>
                 <groupId>org.apache.ant</groupId>
                 <artifactId>ant</artifactId>
@@ -2389,7 +2165,6 @@
                 <artifactId>jackson-mapper-asl</artifactId>
                 <version>${jackson.version}</version>
             </dependency>
-
             <dependency>
                 <groupId>org.aspectj</groupId>
                 <artifactId>aspectjrt</artifactId>
@@ -2835,17 +2610,6 @@
                 </exclusions>
             </dependency>
             <dependency>
-                <groupId>org.apache.httpcomponents</groupId>
-                <artifactId>httpclient</artifactId>
-                <version>${http-components.version}</version>
-                <exclusions>
-                    <exclusion>
-                        <groupId>commons-logging</groupId>
-                        <artifactId>commons-logging</artifactId>
-                    </exclusion>
-                </exclusions>
-            </dependency>
-            <dependency>
                 <groupId>commons-pool</groupId>
                 <artifactId>commons-pool</artifactId>
                 <version>${commons-pool.version}</version>
@@ -2938,11 +2702,6 @@
                 <artifactId>jdom</artifactId>
                 <version>${jdom.version}</version>
                 <scope>runtime</scope>
-            </dependency>
-            <dependency>
-                <groupId>org.cloudfoundry</groupId>
-                <artifactId>cloudfoundry-runtime</artifactId>
-                <version>${cloudfoundry.version}</version>
             </dependency>
             <dependency>
                 <groupId>antlr</groupId>
@@ -3129,16 +2888,6 @@
                 <version>${maven-jxr-plugin.version}</version>
                 <configuration>
                     <aggregate>true</aggregate>
-                </configuration>
-            </plugin>
-            <plugin>
-                <groupId>org.codehaus.mojo</groupId>
-                <artifactId>cobertura-maven-plugin</artifactId>
-                <version>${maven-cobertura-plugin.version}</version>
-                <configuration>
-                    <check/>
-                    <aggregate>true</aggregate>
-                    <outputDirectory>${project.reporting.outputDirectory}/cobertura</outputDirectory>
                 </configuration>
             </plugin>
             <plugin>
